@@ -460,7 +460,7 @@ class Discogs::Wrapper
   #   @option data [Integer (Required)] :release_id The ID of the release that this listing represents.
   #   @option data [String (Optional)] :condition The physical condition of the item. Must *EXACTLY* match one of:
   #     * +Mint (M)+
-  #     * +Near Mint (NM or NM-)+
+  #     * +Near Mint (NM or M-)+
   #     * +Very Good Plus (VG+)+
   #     * +Very Good (VG)+
   #     * +Good Plus (G+)+
@@ -469,7 +469,7 @@ class Discogs::Wrapper
   #     * +Poor (P)+
   #   @option data [String (Optional)] :sleeve_condition (+Not Graded+) The physical condition of the item's sleeve, case, or container. Must *EXACTLY* match one of:
   #     * +Mint (M)+
-  #     * +Near Mint (NM or NM-)+
+  #     * +Near Mint (NM or M-)+
   #     * +Very Good Plus (VG+)+
   #     * +Very Good (VG)+
   #     * +Good Plus (G+)+
